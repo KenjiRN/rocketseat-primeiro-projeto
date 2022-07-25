@@ -1,0 +1,57 @@
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;    /*alinhou os elementos ao meio*/
+    margin: 0;   /*ZEROU A MAGEM OD BODY, colou no top*/
+}
+#hero{
+    width: 592px;   /*definindo o tamanho dessa caixa, 
+    o text-align utilizado no BODY foi anulado com isso 
+    sendo necessario a caractertização abaixo (margin auto)*/
+    margin:0  auto 72px;
+}
+#hero img{
+    margin-bottom: 72px;
+}
+h1{
+    font-family: 'Inter', sans-serif; 
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+span{
+    color: #FF9900;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #7d7987;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+span h1{
+    font-weight: bold;
+}
+#footer{
+    margin-top: 72px;
+}
+#footer a + a{  /*a + a significa que irá se referir a apenas ao segundo a*/
+margin-left: 28px;
+
+}
+#line{
+    width: 568px;   /*COMO DEFINIU LARGURA, ELA RESETA E GRUDA NO LADO ESQUERDO, 
+    SENDO ASSIM NECESSARIO O USO DA MARGIN AUTO*/
+    height: 0px;
+    margin:  0 auto 8px;
+    border: 1px solid rgb(16, 31, 77);
+}
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
